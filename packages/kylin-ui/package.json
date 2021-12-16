@@ -2,12 +2,15 @@
   "name": "oaooao-test-kylin-ui",
   "version": "1.0.0",
   "description": "An example toolchain used to build projects in this repo",
+  "author": "wei.lu <theoaooao@gmail.com>",
   "license": "MIT",
+  "main": "lib/start.js",
   "bin": {
     "my-build": "bin/my-build.js",
     "my-bulk-command": "bin/my-bulk-command.js"
   },
   "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
     "build": "rimraf ./lib/ && tsc",
     "my-bulk-command": ""
   },
