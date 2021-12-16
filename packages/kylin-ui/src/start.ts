@@ -7,6 +7,7 @@ console.log('Invoking my-toolchain...');
 
 console.log('test');
 
+console.log('test');
 
 child_process.execSync('tsc', { stdio: 'inherit' });
 
