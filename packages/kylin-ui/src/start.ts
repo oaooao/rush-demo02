@@ -5,6 +5,9 @@ import * as child_process from 'child_process';
 
 console.log('Invoking my-toolchain...');
 
+console.log('test');
+
+
 child_process.execSync('tsc', { stdio: 'inherit' });
 
 console.log(colors.green('Success!'));
